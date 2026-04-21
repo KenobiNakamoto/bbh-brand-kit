@@ -1,0 +1,68 @@
+/* =========================================================================
+   Barcelona Bitcoin Hub — Design Tokens
+   Drop-in CSS custom properties. Import at the top of your stylesheet:
+     @import url("./tokens.css");
+   ========================================================================= */
+
+:root {
+  /* ---- Palette ---- */
+  --bbh-ink:           #010101;
+  --bbh-paper:         #F0E8D5;
+  --bbh-paper-light:   #F7F3EA;
+  --bbh-white:         #FFFFFF;
+  --bbh-orange:        #F7931A;
+  --bbh-orange-deep:   #D67A0E;
+  --bbh-stone:         #8C8274;
+  --bbh-stone-soft:    #C9C0AE;
+  --bbh-charcoal:      #2B2B2B;
+
+  /* ---- Type ---- */
+  --bbh-display: "The Seasons", "Fraunces", "Cormorant Garamond", Georgia, serif;
+  --bbh-sans:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --bbh-mono:    ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* ---- Type scale ---- */
+  --bbh-size-h1:   clamp(40px, 6.2vw, 72px);
+  --bbh-size-h2:   clamp(28px, 3.6vw, 44px);
+  --bbh-size-h3:   clamp(22px, 2.2vw, 28px);
+  --bbh-size-h4:   20px;
+  --bbh-size-deck: clamp(20px, 2.1vw, 26px);
+  --bbh-size-body: 17px;
+  --bbh-size-meta: 13px;
+  --bbh-size-eyebrow: 12px;
+
+  /* ---- Rhythm ---- */
+  --bbh-maxw:       1240px;
+  --bbh-maxw-prose: 72ch;
+  --bbh-gutter:     clamp(20px, 4vw, 48px);
+  --bbh-unit:       8px;
+
+  /* ---- Elevation ---- */
+  --bbh-shadow-card: 0 2px 8px rgba(1, 1, 1, 0.08);
+  --bbh-shadow-lift: 0 10px 28px rgba(1, 1, 1, 0.12);
+
+  /* ---- Motion ---- */
+  --bbh-ease-out:    cubic-bezier(0.2, 0.8, 0.2, 1);
+  --bbh-dur-fast:    0.18s;
+  --bbh-dur-base:    0.3s;
+  --bbh-dur-slow:    0.5s;
+}
+
+/* ---- Font faces ----
+   Expects ../fonts/the-seasons/TheSeasons-Regular.ttf and TheSeasons-Bold.ttf
+   (relative to this file's location in design-tokens/).
+   Adjust the url() paths below if you place fonts elsewhere.                 */
+@font-face {
+  font-family: "The Seasons";
+  src: url("../fonts/the-seasons/TheSeasons-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "The Seasons";
+  src: url("../fonts/the-seasons/TheSeasons-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.design-tokens.org/typography.json",
+  "families": {
+    "display": {
+      "stack": "\"The Seasons\", \"Fraunces\", \"Cormorant Garamond\", Georgia, serif",
+      "primary": "The Seasons",
+      "role": "Headlines, editorial pull quotes, large numbers",
+      "weights": [400, 700],
+      "source": "./fonts/the-seasons/",
+      "license": "Free for personal use. Commercial use permitted by OnlineWebFonts under CC BY 4.0 (see fonts/the-seasons/LICENSE.txt)."
+    },
+    "sans": {
+      "stack": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif",
+      "primary": "Inter",
+      "role": "Body copy, UI labels, eyebrows, buttons",
+      "weights": [400, 500, 600, 700],
+      "source": "https://rsms.me/inter/",
+      "license": "SIL Open Font License 1.1"
+    },
+    "mono": {
+      "stack": "ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+      "role": "Code snippets, numeric tables (rare)",
+      "weights": [400]
+    }
+  },
+  "scale": {
+    "h1": { "size": "clamp(40px, 6.2vw, 72px)",  "lineHeight": 1.08, "letterSpacing": "-0.01em", "family": "display", "weight": 700 },
+    "h2": { "size": "clamp(28px, 3.6vw, 44px)",  "lineHeight": 1.08, "letterSpacing": "-0.01em", "family": "display", "weight": 700 },
+    "h3": { "size": "clamp(22px, 2.2vw, 28px)",  "lineHeight": 1.2,  "letterSpacing": "-0.005em","family": "display", "weight": 400 },
+    "h4": { "size": "20px",                        "lineHeight": 1.3,  "family": "sans",    "weight": 600 },
+    "body": { "size": "17px",                      "lineHeight": 1.7,  "family": "sans",    "weight": 400 },
+    "deck": { "size": "clamp(20px, 2.1vw, 26px)",  "lineHeight": 1.42, "family": "display", "weight": 400, "note": "Editorial stand-first / deck — never for body" },
+    "meta": { "size": "13px",                      "lineHeight": 1.4,  "letterSpacing": "0.06em", "textTransform": "uppercase", "family": "sans", "weight": 500, "color": "stone" },
+    "eyebrow": { "size": "12px",                   "letterSpacing": "0.22em", "textTransform": "uppercase", "family": "sans", "weight": 500, "color": "stone" }
+  },
+  "rules": [
+    "Never mix more than two type families on a page.",
+    "The Seasons is for display only. Do not use it below 18px.",
+    "Eyebrows, meta labels, and buttons are always sans, always uppercase, always letter-spaced 0.06–0.22em.",
+    "Body copy is always charcoal, never pure ink (for long-form readability).",
+    "Italics in display type are reserved for emphasised words in a quote (e.g., Solo *Bitcoin*)."
+  ]
+}

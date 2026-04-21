@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.design-tokens.org/colors.json",
+  "brand": {
+    "ink": {
+      "value": "#010101",
+      "name": "Midnight Black",
+      "role": "Primary text, rules, strong accents",
+      "usage": "Default for all body copy, headings, borders. Never substitute for pure #000000."
+    },
+    "paper": {
+      "value": "#F0E8D5",
+      "name": "Parchment Cream",
+      "role": "Primary background",
+      "usage": "Default background of every surface. Always textured with paper grain."
+    },
+    "paperLight": {
+      "value": "#F7F3EA",
+      "name": "Parchment Cream — Light",
+      "role": "Secondary background / stacking contrast",
+      "usage": "Alternate sections on long pages. Use when stacking two textured surfaces."
+    },
+    "white": {
+      "value": "#FFFFFF",
+      "name": "Pure White",
+      "role": "Cards, sponsored callouts",
+      "usage": "Reserved for card surfaces on paper background. Never a page background."
+    },
+    "orange": {
+      "value": "#F7931A",
+      "name": "Bitcoin Orange",
+      "role": "Accent — links, CTAs, highlights",
+      "usage": "Use sparingly. Only for: buttons, links on hover, accent rules, highlighted words in quotes. Never for body text."
+    },
+    "orangeDeep": {
+      "value": "#D67A0E",
+      "name": "Bitcoin Orange — Deep",
+      "role": "Hover/pressed state of Orange",
+      "usage": "Hover state for orange buttons and links."
+    },
+    "stone": {
+      "value": "#8C8274",
+      "name": "Warm Stone",
+      "role": "Secondary text, meta labels",
+      "usage": "Captions, eyebrows, supporting metadata. Never for primary copy."
+    },
+    "stoneSoft": {
+      "value": "#C9C0AE",
+      "name": "Warm Stone — Soft",
+      "role": "Dividers, image placeholders",
+      "usage": "Soft rules, placeholder backgrounds before photos load."
+    },
+    "charcoal": {
+      "value": "#2B2B2B",
+      "name": "Charcoal",
+      "role": "Body text",
+      "usage": "Paragraph copy. Softer than pure ink for long-form readability."
+    }
+  },
+  "contrast": {
+    "ink-on-paper":     "18.9:1  (AAA)",
+    "charcoal-on-paper": "12.8:1  (AAA)",
+    "stone-on-paper":   "3.9:1  (AA large text only)",
+    "orange-on-ink":    "7.1:1  (AAA)"
+  },
+  "rules": [
+    "Never use Bitcoin Orange on Parchment Cream at text sizes (fails WCAG). Use ink or charcoal.",
+    "Never set the background to pure white at the page level. Paper or Paper Light only.",
+    "Never use more than one orange accent in a single viewport section.",
+    "Photography must always be grayscale with contrast 1.06×. No color photos."
+  ]
+}

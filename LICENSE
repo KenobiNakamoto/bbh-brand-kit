@@ -1,0 +1,85 @@
+Barcelona Bitcoin Hub — Brand Kit License
+
+Copyright (c) 2025–present, Barcelona Bitcoin Hub.
+
+This repository contains multiple types of material. Each is covered by a
+different license. Read carefully before reuse.
+
+-------------------------------------------------------------------------------
+1. Code and documentation (MIT License)
+-------------------------------------------------------------------------------
+The design-tokens (*.css, *.json), USAGE.md, README.md, ai-pack/*, and any other
+code or documentation in this repository are released under the MIT License:
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+-------------------------------------------------------------------------------
+2. Photography (CC BY-NC 4.0)
+-------------------------------------------------------------------------------
+Files under `photography/` (founder portraits, meetup reportage) are licensed
+under the Creative Commons Attribution-NonCommercial 4.0 International License.
+
+Summary:
+  - You may copy, redistribute, and adapt the photographs for non-commercial
+    purposes.
+  - You must provide attribution: "Photograph: Barcelona Bitcoin Hub".
+  - Commercial use requires written permission from barcelona_btc_hub@proton.me.
+
+Full text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+-------------------------------------------------------------------------------
+3. Logos, wordmarks, and brand name (All rights reserved)
+-------------------------------------------------------------------------------
+Files under `logos/` and the names "Barcelona Bitcoin Hub", "BBH", and the
+logo marks are the property of the project founders.
+
+Permitted uses, without prior permission:
+  - Referring to Barcelona Bitcoin Hub editorially (in news articles, blog
+    posts, academic papers, podcasts).
+  - Linking to or embedding the logo when quoting a BBH event or speaker.
+  - Collaborating with BBH as a partner, speaker, or attendee, where the logo
+    appears alongside the partnership in context.
+
+Prohibited uses:
+  - Modifying the logo marks (rotating, skewing, recolouring, insetting text
+    or images, removing the orange accent, etc.).
+  - Implying endorsement, affiliation, or partnership where none exists.
+  - Using the BBH name or logo on material that violates the Solo Bitcoin
+    rule (no price, no trading, no altcoins).
+  - Selling merchandise featuring the BBH logo without written permission.
+
+For any use not covered above, contact barcelona_btc_hub@proton.me.
+
+-------------------------------------------------------------------------------
+4. The Seasons font (CC BY 4.0 by OnlineWebFonts)
+-------------------------------------------------------------------------------
+The fonts under `fonts/the-seasons/` are licensed separately by their author
+via OnlineWebFonts.com under CC BY 4.0. See
+`fonts/the-seasons/LICENSE.txt` for full terms and attribution requirements.
+
+-------------------------------------------------------------------------------
+5. Partner brands
+-------------------------------------------------------------------------------
+Files under `partner-brands/` belong to their respective owners and are
+included here for reference only. Their usage is governed by the respective
+owners' brand guidelines, not by this repository's license.
+
+-------------------------------------------------------------------------------
+
+Questions? Write to: barcelona_btc_hub@proton.me

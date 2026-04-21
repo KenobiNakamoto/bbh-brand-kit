@@ -1,0 +1,64 @@
+{
+  "voice": {
+    "description": "Editorial, serious, warm. Financial Times × Bitcoin Magazine. Never hype, never crypto-bro, never marketing-speak.",
+    "do": [
+      "Speak in short, declarative sentences.",
+      "Use Spanish and English interchangeably where appropriate. Both are first-class.",
+      "Treat the reader as an intelligent adult.",
+      "Write in the first person plural ('we') when speaking as the hosts.",
+      "Use editorial conventions: pull quotes, italics for emphasised single words, small caps for organisation names where supported."
+    ],
+    "avoid": [
+      "'To the moon', 'HODL', rocket emojis, or any price/trading reference.",
+      "Generic Web3 / crypto language. BBH is Bitcoin-only.",
+      "Excessive formatting (bold emphasis, long bullet lists, multiple exclamation points).",
+      "Claims about returns, forecasts, or what Bitcoin's price 'will' do.",
+      "Calling meetups 'events' in marketing copy — use 'meetups' or 'talks'."
+    ],
+    "signature_phrases": [
+      "Bitcoin. Sin ruido.",
+      "Solo Bitcoin. No price. No trading. No altcoins.",
+      "One talk a month. Zero interruptions.",
+      "Drinks on the terrace. Dinner after the talk.",
+      "A family first, a meetup second.",
+      "The Trojan horse at Passeig de Gràcia 19."
+    ]
+  },
+  "motifs": {
+    "description": "Visual and verbal motifs that recur across every surface.",
+    "motifs": [
+      {
+        "name": "Masthead",
+        "description": "Top-bordered and bottom-ruled horizontal bar in uppercase sans — carries the brand name, location, date, and edition number. Evokes a newspaper masthead."
+      },
+      {
+        "name": "Editorial rule",
+        "description": "A full-bleed 1–2px ink rule used to separate section introductions from content, like an editor's cut."
+      },
+      {
+        "name": "Paper grain",
+        "description": "Every surface is textured. Mandatory 3-layer SVG turbulence: fine film grain (overlay) + medium grain (overlay) + coarse paper wrinkle (multiply), scaled 200/384/720px respectively."
+      },
+      {
+        "name": "Grayscale + 1px ink border",
+        "description": "All photography. No exceptions. Filter: grayscale(100%) contrast(1.06). Border: 1px solid var(--bbh-ink)."
+      },
+      {
+        "name": "Orange accent rule",
+        "description": "A 3px × 56px horizontal block of Bitcoin Orange placed before headlines to mark 'BBH' content — never as a full rule, always a fragment."
+      },
+      {
+        "name": "Numbered editions",
+        "description": "Every meetup is numbered. Use '№' (numero sign) followed by a Roman numeral for marketing, or Arabic for tables/archives. 'Meetup № XVI', '№ 15'."
+      },
+      {
+        "name": "Venn diagram",
+        "description": "BBH's origin metaphor: the intersection of Bitcoin and mainstream Finance/Policy. Reused in the About page and available as a pen-and-ink illustration."
+      },
+      {
+        "name": "The Solo Bitcoin declaration",
+        "description": "The opening line of every meetup. Always rendered as a blockquote with italics on 'Solo Bitcoin' in Bitcoin Orange."
+      }
+    ]
+  }
+}
